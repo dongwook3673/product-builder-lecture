@@ -1,6 +1,25 @@
 
 const generateBtn = document.getElementById("generate");
 const numbersContainer = document.querySelector(".numbers");
+const themeToggle = document.getElementById("theme-toggle");
+
+// Function to set the theme
+const setTheme = (theme) => {
+    document.body.dataset.theme = theme;
+    themeToggle.checked = theme === "dark";
+    localStorage.setItem("theme", theme);
+};
+
+// Event listener for the theme toggle
+themeToggle.addEventListener("change", () => {
+    const newTheme = themeToggle.checked ? "dark" : "light";
+    setTheme(newTheme);
+});
+
+// Check for saved theme in local storage
+const savedTheme = localStorage.getItem("theme") || "light";
+setTheme(savedTheme);
+
 
 generateBtn.addEventListener("click", () => {
     numbersContainer.innerHTML = "";
