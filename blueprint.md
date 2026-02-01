@@ -29,10 +29,12 @@ This project is a simple, visually appealing web application that generates rand
     *   41-45: Green
 *   **One-Click Generation:** A simple button to generate a new set of numbers.
 *   **Theme Toggle:** A switch to toggle between light and dark modes. The user's preference is saved in local storage.
+*   **Affiliate Inquiry Form:** A simple Formspree-powered contact form for affiliate inquiries, collecting name, email, and message.
 
 ## Current Plan
 
 *   ~~Create the initial HTML structure.~~ (Completed)
 *   ~~Style the application with CSS.~~ (Completed)
 *   ~~Implement the JavaScript logic for number generation.~~ (Completed)
-*   **In Progress:** Add Dark Mode/Light Mode toggle.
+*   ~~Add Dark Mode/Light Mode toggle.~~ (Completed)
+*   ~~Add Formspree affiliate inquiry form.~~ (Completed)
