@@ -30,6 +30,7 @@ This project is a simple, visually appealing web application that generates rand
 *   **One-Click Generation:** A simple button to generate a new set of numbers.
 *   **Theme Toggle:** A switch to toggle between light and dark modes. The user's preference is saved in local storage.
 *   **Affiliate Inquiry Form:** A simple Formspree-powered contact form for affiliate inquiries, collecting name, email, and message.
+*   **Disqus Comments:** Integrated Disqus comment system at the bottom of the page for user discussions.
 
 ## Current Plan
 
@@ -38,3 +39,4 @@ This project is a simple, visually appealing web application that generates rand
 *   ~~Implement the JavaScript logic for number generation.~~ (Completed)
 *   ~~Add Dark Mode/Light Mode toggle.~~ (Completed)
 *   ~~Add Formspree affiliate inquiry form.~~ (Completed)
+*   ~~Add Disqus comment functionality.~~ (Completed)
